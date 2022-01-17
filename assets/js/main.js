@@ -54,9 +54,7 @@ let firstName;
 let lastName;
 let age2;
 
-firstName = "John"
-lastName = "Doe"
-age2 = 35
+firstName = "John", lastName = "Doe", age2 = 35;
 console.log (firstName + " " + lastName + " " + age2)
 
 // ---- Aufgabe 5 ----
