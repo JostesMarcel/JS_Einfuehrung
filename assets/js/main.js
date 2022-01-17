@@ -23,28 +23,23 @@ console.log(age);
 let job = "Trainer";
 console.log(job);
 var married = true;
-console.log(married)
-console.log(name + " ist " + age + " Jahre alt und ist verheiratet: " + married)
+console.log(married);
+console.log(name + " ist " + age + " Jahre alt und ist verheiratet: " + married);
 
 // ---- Aufgabe 3 ----
-/*
+
 var z = 34;
 var z = 67;
 console.log(z);
-*/
 
-/*
 let x = 34;
 let x = 67;
 console.log(x);
-*/
 
-/*
 const y = 34;
 const y = 67;
 console.log(y);
-*/
-/*
+
 // ---- Aufgabe 4 ----
 var carName = "BMW";
 console.log(carName)
@@ -152,7 +147,7 @@ alert(a);
 let mann = "Robert Wadlow ist der größte Mann der Welt : ";
 let grosse = "2,72m";
 alert(mann + grosse);
-
+*/ // ------ Ende auskommentieren ------
 // Alert box with line-breaks:
 alert("Hello\nHow are you?");
 // Alert the hostname of the current URL:
@@ -162,11 +157,10 @@ confirm("Press a button!");
 // Confirmation box with line-breaks:
 confirm("Press a button!\nEither OK or Cancel.");
 // Display a confirmation box, and output what the user clicked:
-let text;
+let text; 
 if (confirm("Press a button!") == true) {
   text = "You pressed OK!";
 } else {
   text = "You canceled!";
 }
 document.getElementById("demo").innerHTML = text;
-*/ // ------ Ende auskommentieren ------
