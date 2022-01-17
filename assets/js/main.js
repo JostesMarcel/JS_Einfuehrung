@@ -162,3 +162,9 @@ if (confirm("Press a button!") == true) {
   text = "You canceled!";
 }
 document.getElementById("demo").innerHTML = text;
+// Prompt for a user name and output a message:
+let person = prompt("Please enter your name", "Harry Potter");
+  if (person != null) {
+    document.getElementById("demo2").innerHTML =
+    "Hello " + person + "! How are you today?";
+  }
